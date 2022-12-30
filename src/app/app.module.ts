@@ -3,9 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 
+import { NavbarencabezadoComponent } from './navbarencabezado/navbarencabezado.component';
+import { PaginahomemainComponent } from './paginahomemain/paginahomemain.component';
+
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarencabezadoComponent,
+    PaginahomemainComponent
   ],
   imports: [
     BrowserModule
